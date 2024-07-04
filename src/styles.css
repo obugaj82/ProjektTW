@@ -1,0 +1,92 @@
+
+body {
+  background-color: #fff3f9; 
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+
+
+label {
+  display: block;
+  font-weight: 400;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+
+button {
+  padding: 8px 16px;
+  border: 12;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:first-of-type {
+  background-color: #ff69b4; 
+  color: white;
+  display: block; 
+  margin-top: 10px; 
+}
+
+button:first-of-type:hover {
+  background-color: #ff1493;
+  transform: scale(1.05);
+}
+
+
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 20px;
+  border: 3px groove #000000;
+  border-radius: 20px;
+  overflow: clip;
+  background-color: #f7d7f0; 
+}
+
+th,
+td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #000000;
+  text-align: left;
+}
+
+th {
+  background-color: #ffbadd; 
+  color: #000000;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #ffbadd; 
+}
+
+tr:hover {
+  background-color: #ffffff; 
+}
+
+.mainInfo{
+  border: 20px solid #ff1493; 
+  border-radius: 15px; 
+  padding: 20px;
+  background-color: #ffbadd; 
+  margin-bottom: 20px; 
+}
+
+.daneotot{  
+  width: 100% - 45;
+  padding: 20px 12px;
+  margin-bottom: 10px;
+  border-radius: 10px; 
+  background-color: #ff88b0; 
+}
+
+.imienazw{  
+  width: 30%;
+  padding: 20px 12px;
+  border-radius: 10px; 
+  background-color: #fff0f5; 
+}
